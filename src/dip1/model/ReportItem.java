@@ -14,4 +14,5 @@ public class ReportItem {
     public float getAmount(){
         return amount;
     }
+
 }

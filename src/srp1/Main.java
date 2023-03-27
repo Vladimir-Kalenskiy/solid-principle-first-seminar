@@ -1,12 +1,14 @@
 package srp1;
 
+import srp1.figure.Draw;
 import srp1.figure.Point;
 import srp1.figure.Square;
 
-public class Main {
+public class  Main {
     public static void main(String[] args) {
         Square square = new Square(new Point(1,1), 5);
+        Draw brush = new Draw(square);
         System.out.printf("Площадь фигуры: %d \n", square.getArea());
-        square.draw();
+        brush.draw(square);
     }
 }

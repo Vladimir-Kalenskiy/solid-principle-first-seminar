@@ -4,3 +4,5 @@ INFO: Стартовал метод main в пакете dip1.model
 INFO: Стартовал метод main в пакете model
 мар 21, 2023 1:17:25 AM dip1.Main main
 INFO: Стартовал метод main в пакете model
+мар 26, 2023 12:25:25 AM dip1.Main main
+INFO: РЎС‚Р°СЂС‚РѕРІР°Р» РјРµС‚РѕРґ main РІ РїР°РєРµС‚Рµ model

@@ -1,12 +1,17 @@
 package dip1.model;
 
-import dip1.model.util.ReportPrinter;
+import dip1.model.util.Printer;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Report{
     private List<ReportItem> items;	// Отчетные данные
+    private Printer<ReportItem> printer;
+
+    public Report(Printer<ReportItem> printer) {
+        this.printer = printer;
+    }
 
     // расчет отчетных данных
     public void calculate(){
@@ -16,7 +21,6 @@ public class Report{
     }
 
     public void output(){
-        ReportPrinter reportPrint = new ReportPrinter();
-        reportPrint.output(items);
+        printer.output(items);
     }
 }
